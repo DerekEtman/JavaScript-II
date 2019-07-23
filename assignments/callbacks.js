@@ -21,30 +21,85 @@ const items = ['Pencil', 'Notebook', 'yo-yo', 'Gum'];
   firstItem(items, function(first) {
     console.log(first)
   });
+  
+  */
+ // getLength passes the length of the array into the callback.
+ 
 
-*/
+  // function measure(arr){
+  //     return arr.length;
+  //   }
+
+  // function getLength(array, cb) {
+  //   return cb(array);
+  // }
+
+  // console.log(getLength(items,measure));
 
 
-function getLength(arr, cb) {
-  // getLength passes the length of the array into the callback.
-}
+// last passes the last item of the array into the callback.
 
-function last(arr, cb) {
-  // last passes the last item of the array into the callback.
-}
 
-function sumNums(x, y, cb) {
-  // sumNums adds two numbers (x, y) and passes the result to the callback.
-}
+  // function lastItem(arr){
+  //   return arr[arr.length -1];
+  // };
+  
+  // function last(arr, cb) {
+  //   return cb(arr);
+  // }
 
-function multiplyNums(x, y, cb) {
-  // multiplyNums multiplies two numbers and passes the result to the callback.
-}
+  // console.log( last(items,lastItem) );
 
-function contains(item, list, cb) {
-  // contains checks if an item is present inside of the given array/list.
-  // Pass true to the callback if it is, otherwise pass false.
-}
+
+// sumNums adds two numbers (x, y) and passes the result to the callback.
+
+
+    // function add(num1,num2){
+    //   return num1 + num2;
+    // }
+
+    // function sumNums(x, y, cb) {
+    //   return cb(x,y)
+    // }
+
+    // console.log(sumNums(2,5,add))
+
+
+// multiplyNums multiplies two numbers and passes the result to the callback.
+
+
+    // function multiply(num1,num2){
+    //   return num1 * num2;
+    // }
+
+    // function multiplyNums(x, y, cb) {
+    //   return cb(x,y)
+    // }
+
+    // console.log(multiplyNums(3,5,multiply))
+
+
+// contains checks if an item is present inside of the given array/list.
+// Pass true to the callback if it is, otherwise pass false.
+
+/*const items = ['Pencil', 'Notebook', 'yo-yo', 'Gum'];*/
+
+
+// function itemPresent(item, list){
+
+// console.log(list);
+//   if( item === list ){
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// function contains(item, list, cb) {
+//   return cb(item,list);
+// }
+
+// console.log(contains('Pencil',items,itemPresent));
 
 /* STRETCH PROBLEM */
 

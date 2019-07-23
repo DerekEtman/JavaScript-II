@@ -2,6 +2,21 @@
 // Write a simple closure of your own creation.  Keep it simple!
 
 
+const theWorld = "This is Global";
+
+  function unitedStates(){
+    const president = "orange";
+    console.log("The President is",president);
+
+    function california(){
+      const govenor = "Newsom";
+      console.log("the Governor is", govenor);
+    }
+    return california;
+  }
+
+unitedStates();
+
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
 
